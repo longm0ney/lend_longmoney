@@ -1,0 +1,11 @@
+# Apache: вход через index.php (клоака + гео на сервере)
+# Перед заливом:
+#   1) скопируй боевой index.html → black.html
+#   2) этот файл переименуй в .htaccess
+
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^$ index.php [L]
+</IfModule>

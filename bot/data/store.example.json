@@ -1,0 +1,34 @@
+{
+  "config": {
+    "ctaUrl": "https://example.com",
+    "ctaTarget": "_blank",
+    "publicUrl": "",
+    "cloakEnabled": true,
+    "whiteAction": "inline",
+    "whitePageUrl": "white.html",
+    "preferUserSafety": true,
+    "geoEnabled": true,
+    "allowedCountries": ["UA"],
+    "geoFailOpen": true,
+    "blockAction": "stub",
+    "blockRedirectUrl": "https://www.google.com/",
+    "blockTitle": "Сервіс недоступний",
+    "blockText": "Ця пропозиція доступна лише для користувачів з України.",
+    "allowLocalhost": true,
+    "allowQueryBypass": false
+  },
+  "stats": {
+    "visits": 0,
+    "clicks": 0,
+    "whiteHits": 0,
+    "geoBlocks": 0,
+    "byDay": {}
+  },
+  "domainWatch": {
+    "enabled": false,
+    "url": "",
+    "notifiedLive": false,
+    "lastCheckAt": null,
+    "lastStatus": null
+  }
+}

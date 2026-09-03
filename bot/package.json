@@ -1,0 +1,19 @@
+{
+  "name": "raif-land-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram admin bot + API for landing config and stats",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "grammy": "^1.35.0"
+  }
+}

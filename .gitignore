@@ -1,0 +1,24 @@
+# secrets / runtime
+.env
+**/.env
+bot/data/*
+!bot/data/store.example.json
+bot/node_modules/
+**/node_modules/
+
+# logs / OS
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
+
+# local deploy helpers with credentials (never commit)
+deploy_*.py
+*_vps*.py
+set_bot_env.py
+fix_*.py
+diag_*.py
+
+# editor
+.idea/
+.vscode/

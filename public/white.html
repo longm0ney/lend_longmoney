@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <title>Фінансовий інформаційний портал</title>
+  <meta name="description" content="Корисні матеріали про банківські сервіси, кешбек та безпечні онлайн-платежі в Україні." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="white.css" />
+</head>
+<body>
+  <header class="w-header">
+    <div class="w-logo">Finance Info UA</div>
+    <nav class="w-nav">
+      <a href="#about">Про портал</a>
+      <a href="#tips">Поради</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="w-hero">
+      <p class="w-eyebrow">Інформаційний ресурс</p>
+      <h1>Розумійте банківські сервіси простіше</h1>
+      <p class="w-lead">
+        Ми публікуємо загальні огляди фінансових продуктів, пояснюємо базові терміни
+        та допомагаємо користувачам орієнтуватися в безпечних онлайн-платежах.
+      </p>
+    </section>
+
+    <section id="about" class="w-section">
+      <h2>Про портал</h2>
+      <p>
+        Finance Info UA — незалежний інформаційний сайт. Ми не є банком і не надаємо
+        фінансових послуг. Усі матеріали мають ознайомчий характер.
+      </p>
+    </section>
+
+    <section id="tips" class="w-section w-cards">
+      <article>
+        <h3>Кешбек</h3>
+        <p>Що таке кешбек, як він нараховується та на що звертати увагу в умовах програми.</p>
+      </article>
+      <article>
+        <h3>Безпека карток</h3>
+        <p>Базові правила: не передавайте CVV, перевіряйте домен банку, вмикайте 3-D Secure.</p>
+      </article>
+      <article>
+        <h3>Онлайн-платежі</h3>
+        <p>Як відрізняти офіційні сервіси від фішингових сторінок і куди звертатися при сумнівах.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="w-section">
+      <h2>Контакти</h2>
+      <p>З питань щодо матеріалів пишіть на <a href="mailto:info@example.com">info@example.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="w-footer">
+    <p>© <span id="y"></span> Finance Info UA. Інформаційний портал.</p>
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
